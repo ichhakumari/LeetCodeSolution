@@ -1,6 +1,11 @@
-/**revenue.. The revenue of all IPL teams are classified into the following: 1. Media rights 2.
-Sponsorship 3. Ticket sales 4. Stall rental 5. Prize money Write a program to get all the revenues based on a category mentioned above and the total amount earned. Prompt the user to know whether they want to continue to add revenue or not and finally generate a report to display top-earning categories and the total amount earned as shown in the sample input and output. Since the categories are stored in sorted order so we use TreeSet<Revenue> to store all the Revenue object. The template for the Revenue class contains the method compareTo() to perform the comparison between two revenue objects and return an integer value. By default,
-  the iterator in tree set class returns the values in ascending order and for this requirement, we can use*/
+/**revenue.. The revenue of all IPL teams are classified into the following: 1. Media rights 2.Sponsorship 3. Ticket sales 4. Stall rental 
+5. Prize money Write a program to get all the revenues based on a category mentioned above and the total amount earned. Prompt the user to 
+know whether they want to continue to add revenue or not and finally generate a report to display top-earning categories and the total amount
+earned as shown in the sample input and output. Since the categories are stored in sorted order so we use TreeSet<Revenue> to store all the Revenue 
+object. The template for the Revenue class contains the method compareTo() to perform the comparison between two revenue objects and return an integer 
+value. By default,the iterator in tree set class returns the values in ascending order and for this requirement, we can use*/
+
+
 
 import java.util.*;
 
