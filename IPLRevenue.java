@@ -24,6 +24,9 @@ class Revenue implements Comparable<Revenue> {
   }
 }
 
+
+//main class
+
 public class IPLRevenue {
   public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
