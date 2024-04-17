@@ -1,4 +1,5 @@
 //Q.852 Peek index in a mountain array
+//Approch Used -> binary search
 
 class Solution {
     public int peakIndexInMountainArray(int[] arr) {
