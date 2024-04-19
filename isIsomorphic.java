@@ -1,4 +1,5 @@
-// Q.205 Isomorphic strings
+//   Q.205 Isomorphic strings
+
 
 class Solution {
   public boolean isIsomorphic(String s, String t) {
