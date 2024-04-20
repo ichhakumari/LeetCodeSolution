@@ -1,4 +1,4 @@
-// Q.231 
+// Q.231 Power of Two
 
 class Solution {
     public boolean isPowerOfTwo(int n) {
