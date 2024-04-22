@@ -1,3 +1,4 @@
+Q.20 Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 class Solution {
     public boolean isValid(String s) {
         char[] arr =s.toCharArray();
