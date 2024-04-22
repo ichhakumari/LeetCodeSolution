@@ -1,4 +1,4 @@
-//Q.34
+//Q.34 Find first and last postion of an element..
 class Solution {
     public int[] searchRange(int[] nums, int target) {
         //empty array
