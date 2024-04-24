@@ -1,4 +1,4 @@
-//Best time to Buy and Sell Stock Price
+// Q. 876  Best time to Buy and Sell Stock Price
 class Solution {
     public int maxProfit(int[] prices) {
         int minPrice = Integer.MAX_VALUE; 
