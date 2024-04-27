@@ -1,4 +1,4 @@
-
+// Q.118 Given an integer numRows, return the first numRows of Pascal's triangle.
 import java.util.*;
 
 public class Main {
