@@ -7,7 +7,7 @@ import java.util.*;
 class Solution {
     public static int subarraySum(int[] nums, int k) {
         int n = nums.length;
-        Map<Integer, Integer> mpp = new HashMap<>(); // Use Integer for keys and values
+        Map<Integer, Integer> mpp = new HashMap<>(); 
         int preSum = 0, cnt = 0;
 
         mpp.put(0, 1); // Setting 0 in the map
