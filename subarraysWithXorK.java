@@ -4,7 +4,7 @@ import java.util.*;
 
 public class Solution {
 
-    public static int solve(int []A, int B) {
+    public static int subarraysWithXorK(int []A, int B) {
         int n = A.length; //size of the given array.
         int xr = 0;
         Map<Integer, Integer> mpp = new HashMap<>(); //declaring the map.
@@ -38,7 +38,7 @@ public class Solution {
     public static void main(String[] args) {
         int[] A = {4, 2, 2, 6, 4};
         int B = 6;
-        int ans = solve(A, B);
+        int ans = subarraysWithXorK(A, B);
         System.out.println("The number of subarrays with XOR k is: " + ans);
     }
 }
