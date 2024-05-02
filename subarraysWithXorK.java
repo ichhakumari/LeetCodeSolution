@@ -5,9 +5,9 @@ import java.util.*;
 public class Solution {
 
     public static int subarraysWithXorK(int []A, int B) {
-        int n = A.length; //size of the given array.
+        int n = A.length;
         int xr = 0;
-        Map<Integer, Integer> mpp = new HashMap<>(); //declaring the map.
+        Map<Integer, Integer> mpp = new HashMap<>(); 
         mpp.put(xr, 1); //setting the value of 0.
         int cnt = 0;
 
