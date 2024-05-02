@@ -1,4 +1,4 @@
-/** 
+/**  Count the number of subarrays with given xor K */
 
 import java.util.*;
 
