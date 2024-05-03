@@ -18,7 +18,7 @@ class Revenue implements Comparable<Revenue> {
     this.revenue = revenue;
   }
 
-  @Override
+  //Override
   public int compareTo(Revenue o) {
     return Integer.compare(o.revenue, this.revenue); // descending order
   }
