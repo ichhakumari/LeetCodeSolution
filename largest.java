@@ -18,7 +18,7 @@ Hence answer : arr[sizeofthearray-1] =5
 //code:
 
 import java.util.*;
-public class tuf {
+public class Solution {
  
   public static void main(String args[]) {
  
@@ -48,7 +48,7 @@ Print the max variable.    */
 
 
 import java.util.*;
-public class tuf {
+public class Solution {
  
   public static void main(String args[]) {
  
