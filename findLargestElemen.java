@@ -38,13 +38,15 @@ public class Solution {
 /**  Solution2: Using a max variable
   
 Intuition:
-We can maintain a max variable that will update whenever the current value is greater than the value in the max variable.  
+We can maintain a max variable that will update whenever the current value is greater than the value in the max
+variable.  
 
 Approach: 
 Create a max variable and initialize it with arr[0].
 Use a for loop and compare it with other elements of the array
 If any element is greater than the max value, update max value with the element’s value
-Print the max variable.    */
+Print the max variable.   
+*/
 
 
 import java.util.*;
