@@ -1,4 +1,4 @@
-//Delete Last Node of Linked List
+                                       //Delete Last Node of Linked List
 
 // Node class definition
 class Node {
@@ -40,7 +40,7 @@ public class LinkedList {
             head = head.next;
         }
     }
-    // Main method
+    
     public static void main(String[] args) {
         // Initialize an array with integer values
         int[] arr = {2, 5, 8, 7};
