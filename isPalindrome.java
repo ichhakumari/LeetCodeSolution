@@ -1,4 +1,5 @@
-//Q 234  Palindrome Linked list
+//Q 234  Palindrome Linked list :  Given the head of a singly linked list, return true if it is a palindrome or false otherwise.
+
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode slow = head;
