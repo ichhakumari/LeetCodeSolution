@@ -16,11 +16,10 @@ For n = 1, 2, 3, 4, and 5, the middle nodes are 0, 1, 1, 2, and 2, respectively.
  */
 class Solution {
     public ListNode deleteMiddle(ListNode head) {
+        if(head==null || head.next==null)return null;
+        
         ListNode fast=head;
         ListNode slow=head;
-
-        if(head==null && head.next==null)return null;
-
         fast= fast.next.next;
 
         while(fast !=null && fast.next != null){
