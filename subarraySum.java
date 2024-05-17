@@ -27,10 +27,6 @@ class Solution {
         return cnt;
     }
 
-    // Implement the missing findAllSubarraysWithGivenSum method here
-    // This method is not required for the logic of subarraySum
-    // You can add it if needed for other functionalities
-
     public static void main(String[] args) {
         int[] nums = {3, 1, 2, 4};
         int k = 6;
