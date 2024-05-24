@@ -1,3 +1,4 @@
+// IMPELEMENT STACK USING QUEUE
 class MyStack {
 
   private Queue<Integer> q = new LinkedList<>();  
