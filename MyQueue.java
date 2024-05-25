@@ -5,7 +5,7 @@ class MyQueue {
 
     Stack<Integer> s1;
     Stack<Integer> s2;
-    /** Initialize your data structure here. */
+
     public MyQueue() {
         this.s1 = new Stack<>();
         this.s2 = new Stack<>();
@@ -26,7 +26,7 @@ class MyQueue {
         return s2.pop();
     }
     
-    /** Get the front element. */
+    // Get the front element. 
     public int peek() {
         if(s2.isEmpty()){
             while(!s1.isEmpty()){
