@@ -26,7 +26,6 @@ class MyQueue {
         return s2.pop();
     }
     
-    // Get the front element. 
     public int peek() {
         if(s2.isEmpty()){
             while(!s1.isEmpty()){
