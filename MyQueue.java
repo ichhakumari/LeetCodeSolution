@@ -35,7 +35,6 @@ class MyQueue {
         return s2.peek();
     }
     
-    /** Returns whether the queue is empty. */
     public boolean empty() {
         if(s1.isEmpty() && s2.isEmpty())
             return true;
