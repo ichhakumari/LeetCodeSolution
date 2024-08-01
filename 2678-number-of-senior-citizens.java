@@ -7,3 +7,19 @@ The following two characters are used to indicate the age of the person.
 The last two characters determine the seat allotted to that person.
 Return the number of passengers who are strictly more than 60 years old. */
 
+class Solution {
+    public int countSeniors(String[] details) {
+       
+        int seniorCount = 0;
+        for (String detail : details) {
+            int age = Integer.parseInt(detail.substring(11, 13));
+          
+            if (age > 60) {
+                seniorCount++;
+            }
+        }
+      
+        return seniorCount;
+    }
+}
+
