@@ -1,3 +1,12 @@
+/** 1508. Range Sum of Sorted Subarray Sums 
+The given problem revolves around finding the sum of a specific subset of a sorted array that contains sums of all non-empty continuous subarrays of the given array nums. The problem requires three inputs:
+
+nums - an array of n positive integers.
+left - the starting index from which to sum (one-indexed).
+right - the ending index up to which to sum (one-indexed).
+Our objective is to compute the sum of all non-empty continuous subarrays, sort these sums, and then calculate the sum of the elements from the left to right indices in the sorted array. The final answer should be returned modulo 10^9 + 7 to handle very large numbers which could cause integer overflow situations.
+  */
+
 import java.util.Arrays; 
 
 class Solution {
